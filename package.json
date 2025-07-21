@@ -1,0 +1,21 @@
+{
+  "name": "ewedwed",
+  "version": "1.0.0",
+  "description": "Website for ewedwed",
+  "main": "index.html",
+  "scripts": {
+    "dev": "serve .",
+    "build": "echo 'No build step required'",
+    "start": "serve ."
+  },
+  "dependencies": {
+    "serve": "^14.0.0"
+  },
+  "keywords": [
+    "website",
+    "business",
+    "ewedwed"
+  ],
+  "author": "SaaSify",
+  "license": "MIT"
+}
