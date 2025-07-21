@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "**/*",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/$1"
+    }
+  ],
+  "env": {
+    "BUSINESS_NAME": "ewedwed",
+    "TEMPLATE_ID": "gym-modern",
+    "MODULES": "Gallery,Booking,staff,social",
+    "THEME": "Dark"
+  }
+}
